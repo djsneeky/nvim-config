@@ -7,7 +7,7 @@ return {
 	},
 	config = function()
 		-- List the servers you want to ensure are installed
-		local servers = { "lua_ls", "pyright", "clangd" }
+		local servers = { "lua_ls", "clangd" }
 
 		require("mason").setup()
 		require("mason-lspconfig").setup({

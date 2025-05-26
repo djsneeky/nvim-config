@@ -1,5 +1,7 @@
 -- ~/nvim/lua/settings.lua
 
+vim.g.mapleader = ","
+
 vim.opt.number = true -- use line numbers
 vim.opt.relativenumber = false -- use relative line numbers
 vim.opt.tabstop = 2
